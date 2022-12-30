@@ -1,4 +1,4 @@
-public class MathCustom {
+class MathCustom {
 
     public static void result(int a, int b, String s, boolean roman) {
         int i;

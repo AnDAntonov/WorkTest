@@ -1,4 +1,4 @@
-public class ExceptionClass extends Exception {
+class ExceptionClass extends Exception {
     public static void exitProgram1() {
         System.out.println("В римской системе нет отрицательных чисел");
         System.exit(0);

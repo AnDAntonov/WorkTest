@@ -1,6 +1,6 @@
-public class NumberConverter {
-    private static int[] numbers = {100, 90, 50, 40, 10, 9, 5, 4, 1};
-    private static String[] letters = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+class NumberConverter {
+    private static final int[] numbers = {100, 90, 50, 40, 10, 9, 5, 4, 1};
+    private static final String[] letters = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
     private static int letterToNumber(char letter) {
         switch (letter) {
@@ -56,7 +56,5 @@ public class NumberConverter {
         }
         return roman;
     }
-
-
 }
 

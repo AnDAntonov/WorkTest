@@ -1,4 +1,4 @@
-public class ParseExpression {
+class ParseExpression {
 
     public static void InputExpression(String expression) {
         String a = "";
@@ -57,8 +57,8 @@ public class ParseExpression {
         if (romanA != romanB) {
             ExceptionClass.exitProgram2();
         }
-        MathCustom.result(variableA, variableB, math, romanA);
 
+        MathCustom.result(variableA, variableB, math, romanA);
     }
 
 }
