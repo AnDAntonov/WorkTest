@@ -1,6 +1,7 @@
 public class NumberConverter {
     private static int[] numbers = {100, 90, 50, 40, 10, 9, 5, 4, 1};
     private static String[] letters = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
     private static int letterToNumber(char letter) {
         switch (letter) {
             case 'I':
@@ -17,6 +18,7 @@ public class NumberConverter {
                 return -1;
         }
     }
+
     public static int returnArabic(String roman) {
         roman = roman.toUpperCase();
         int i = 0;
@@ -42,6 +44,7 @@ public class NumberConverter {
         }
         return arabic;
     }
+
     public static String returnRoman(int arabic) {
         String roman = "";
 
